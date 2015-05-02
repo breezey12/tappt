@@ -20,6 +20,8 @@ def homepage():
         keyword = request.form['keyword']
         times = run_word_loc(youtube_url, app.config['SPEECHMATICS_API_KEY'], [keyword]) 
         stream_urls = [youtube_url + "&t=" + time_location + "s" for time_location in times]
-        return render_template('stream.html', 
-            stream_urls=stream_urls,
-            keyword=keyword)
+        no_results = "Sorry, there aren't any results for "
+        if len(times) == 0:
+            return render_template('stream.html', no_results=no_results, keyword=keyword)
+        else:
+            return render_template('stream.html', stream_urls=stream_urls, keyword=keyword)
