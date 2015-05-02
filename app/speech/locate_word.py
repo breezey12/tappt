@@ -35,9 +35,9 @@ def locate_keywords(word_list, keywords):
 def call_speechmatic_api(audio_file_path, api_token):
     """creates json word_list and returns its path""" 
     #syntax: speechmatics.py -f example.mp3 -l en-US -i 1049 -t Y2E4OGM3NzItOGMwZi00OGQyLTk3MDctY2FmYWE3ZmYxZmNk -o example.json
-    c = "python speechmatics.py -f " + audio_file_path + " -l en-US -i 1049 -t " + api_token + " -o example.json"
+    c = "python speech/speechmatics.py -f " + audio_file_path + " -l en-US -i 1049 -t " + api_token + " -o speech/example.json"
     os.system(c)
-    return "example.json"
+    return "speech/example.json"
 
 def run_word_loc(url, api_token, keywords):
     audio_file_path = convert_yt_to_mp3(url)
