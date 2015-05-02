@@ -16,6 +16,10 @@ def homepage():
         return render_template('home.html')
     if request.method == 'POST':
         youtube_url = request.form['youtube_url']
+        keyword = request.form['keyword']
         # TODO: get the speechmatics stuff to spit us back a list of urls
         stream_urls = ['dummy1', 'dummy2', 'dummy3']
-        return render_template('stream.html', stream_urls=stream_urls)
+
+        return render_template('stream.html', 
+            stream_urls=stream_urls,
+            keyword=keyword)
