@@ -4,6 +4,7 @@
 from flask import Flask, flash, redirect, render_template, request,\
     session, url_for
 from functools import wraps
+from speech.locate_word import run_word_loc 
 
 app = Flask(__name__)
 app.config.from_object('config')
@@ -17,9 +18,8 @@ def homepage():
     if request.method == 'POST':
         youtube_url = request.form['youtube_url']
         keyword = request.form['keyword']
-        # TODO: get the speechmatics stuff to spit us back a list of urls
-        stream_urls = ['dummy1', 'dummy2', 'dummy3']
-
+        times = run_word_loc(youtube_url, app.config['SPEECHMATICS_API_KEY'], [keyword]) 
+        stream_urls = [youtube_url + "&t=" + time_location + "s" for time_location in times]
         return render_template('stream.html', 
             stream_urls=stream_urls,
             keyword=keyword)

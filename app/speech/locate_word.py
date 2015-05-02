@@ -2,10 +2,6 @@
 import json, os
 from download_yt import convert_yt_to_mp3
 
-audio_file_path = 'media_files/video_30_seconds_1.mp3'
-url = "https://www.youtube.com/watch?v=8MNCQTgB7o0"
-keywords = ["writing", "usually", "writers"]
-api_token = "Y2E4OGM3NzItOGMwZi00OGQyLTk3MDctY2FmYWE3ZmYxZmNk"
 
 def get_words(file_path):
     """returns list of words with attributes (time, confidence)"""
