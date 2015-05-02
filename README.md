@@ -1,6 +1,7 @@
 # gighacks-2015
 ## Adaptive Traffic Signaling
   - [github simulator in Java](https://github.com/movsim/movsim)
+  - [Nagel-Schreckenberg Model](http://en.wikipedia.org/wiki/Nagel%E2%80%93Schreckenberg_model)
   - [article 1](http://www.sciencedirect.com/science/article/pii/S136481521400379X)
   - [article 2](http://arizona.openrepository.com/arizona/handle/10150/279933)
   - [article 3, Bayesian](http://www.researchgate.net/publication/235445452_Adaptive_Traffic_Control_System_Based_on_Bayesian_Probability_Interpretation)
