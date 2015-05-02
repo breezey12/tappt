@@ -2,20 +2,27 @@ import sh
 import sys
 import os
 import re
+import time
 
-def convert_youtube_to_mp3(url):
+def c(url):
     url = scrub_the_url(url)
-    # define the path where the media files are
-    full_path = "speech/media_files"
-    os.chdir(full_path)
+    # define the path where the media files are AND REMEMBER TO CHANGE THIS, ADDING "speech/" TO IT IF YOU HAVE A PROBLEMS
+    full_path = "media_files/"
     # downloads the YouTube via using shell application "Youtube-dl"
-    sh.youtube_dl(url)
+    youtube_dl_command = "youtube-dl -o " + full_path
+
+    sh.youtube_dl(-o, full_path, url)
     # define the filename that should be renamed as the most recent file added to this directory
     unique_file_identifier = url[-11:]
+    print unique_file_identifier
     # make a list of files in the path
     list_of_files = os.listdir(full_path)
+    print list_of_files
     # select the file just downloaded for conversion to mp3
     for some_file in list_of_files:
+    #    while unique_file_identifier not in some_file:
+    #        time.sleep(5)
+        list_of_files = os.listdir(full_path)
         if unique_file_identifier in some_file:
             the_downloaded_file = some_file
     convert_mp4_to_mp3(the_downloaded_file)
@@ -29,7 +36,7 @@ def convert_mp4_to_mp3(file):
 
 def scrub_the_url(url):
     if "s" == url[4]:
-        url = url[:42]
+        url = url[:43]
     else:
-        url = url[:41]
+        url = url[:42]
     return url
