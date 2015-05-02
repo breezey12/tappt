@@ -17,6 +17,12 @@
     - others? 
   - Natural Language Processing
 
+### Steps
+- Feed YouTube audio into python :heavy_check_mark:
+- STT/ASR the audio
+- Find locations of desired keyword
+- return links for time location of keywords
+
 ### Story
   - Watch broadcast of City Council Meeting
   - Enter queue for public comment
