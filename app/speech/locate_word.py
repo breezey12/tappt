@@ -1,8 +1,9 @@
 
-import json
+import json, os
 
-file_path = 'example.json'
+audio_file_path = 'audio_files/video_30_seconds_1.mp4'
 keywords = ["accountability", "accountable"]
+api_token = "Y2E4OGM3NzItOGMwZi00OGQyLTk3MDctY2FmYWE3ZmYxZmNk"
 
 def get_words(file_path):
     """returns list of words with attributes (time, confidence)"""
@@ -32,7 +33,15 @@ def locate_keywords(word_list, keywords):
             times.append(round_seconds(word['time']))
     return times
 
-def run_word_loc(file_path, keywords):
+def call_speechmatic_api(audio_file_path, api_token):
+    """creates json word_list and returns its path""" 
+    #speechmatics.py -f example.mp3 -l en-US -i 1049 -t Y2E4OGM3NzItOGMwZi00OGQyLTk3MDctY2FmYWE3ZmYxZmNk -o example.json
+    c = "python speechmatics.py -f" + audio_file_path + " en-US -i 1049 -t" + api_token + "-o example.json"
+    os.system(c)
+    return "example.json"
+
+def run_word_loc(audio_file_path, api_token, keywords):
+    file_path = call_speechmatic_api(audio_file_path, api_token)
     return locate_keywords(get_words(file_path), keywords)
     
 
