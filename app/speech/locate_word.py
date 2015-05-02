@@ -13,6 +13,14 @@ def get_words(file_path):
     #format of word_list: [u'duration': u'0.280', u'confidence': u'0.995', u'name': u'things', u'time': u'2.797']
     return word_list
 
+def round_seconds(sec):
+    """rounds and returns 10 secs earlier"""
+    sec = int(float(sec))
+    if sec - 10 < 0:
+        sec = 0
+    else: sec = sec -10
+    return sec
+
 def locate_keywords(word_list, keywords):
     """returns times keyword(s) occur"""
     i = 0 
@@ -21,15 +29,12 @@ def locate_keywords(word_list, keywords):
         i += 1
         if i > 5000: break
         if word['name'].lower() in keywords:
-            times.append(word['time'])
+            times.append(round_seconds(word['time']))
     return times
 
-def round_seconds(sec):
-    """rounds and returns 10 secs earlier"""
-    sec = int(float(sec))
-    if sec - 10 < 0:
-        sec = 0
-    else: sec = sec -10
-    return sec
+def run_word_loc(file_path, keywords):
+    return locate_keywords(get_words(file_path), keywords)
+    
+
 
 
