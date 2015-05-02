@@ -223,10 +223,4 @@ if __name__ == "__main__":
           if options.text_format:
               print transcript
           else:
-              print json.dumps(transcript, indent = 4)
-
-    
-
-
-
-        
+              print json.dumps(transcript, indent = 4)        

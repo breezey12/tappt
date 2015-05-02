@@ -1,0 +1,9 @@
+{% extends 'template.html' %}
+{% block placeholder %}
+    <h2>Civic Stream Tagger 'o Matix</h2>
+    {% for link in stream_urls %}
+    <div>
+    <a href="{{link}}">Here's a link to stuff</a>
+    </div>
+    {% endfor %} 
+{% endblock %}
