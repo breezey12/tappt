@@ -3,7 +3,7 @@
   - [github simulator in Java](https://github.com/movsim/movsim)
   - [Nagel-Schreckenberg Model](http://en.wikipedia.org/wiki/Nagel%E2%80%93Schreckenberg_model)
   - [open-source road traffic noise model for exposure assessment](http://www.sciencedirect.com/science/article/pii/S136481521400379X)
-  - [article 2](http://arizona.openrepository.com/arizona/handle/10150/279933)
+  - [real-time adaptive traffic signal control algorithms ](http://arizona.openrepository.com/arizona/handle/10150/279933) :star:
   - [article 3, Bayesian](http://www.researchgate.net/publication/235445452_Adaptive_Traffic_Control_System_Based_on_Bayesian_Probability_Interpretation)
   - [COLOMBO project](http://www.colombo-fp7.eu/deliverables/COLOMBO_D6.1_ProjectFactSheet_v1.0.pdf)
 
