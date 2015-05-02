@@ -1,9 +1,10 @@
 
 import json, os
-import download_yt
+from download_yt import convert_yt_to_mp3
 
 audio_file_path = 'media_files/video_30_seconds_1.mp3'
-keywords = ["accountability", "accountable"]
+url = "https://www.youtube.com/watch?v=8MNCQTgB7o0"
+keywords = ["writing", "usually", "writers"]
 api_token = "Y2E4OGM3NzItOGMwZi00OGQyLTk3MDctY2FmYWE3ZmYxZmNk"
 
 def get_words(file_path):
@@ -16,11 +17,11 @@ def get_words(file_path):
     return word_list
 
 def round_seconds(sec):
-    """rounds and returns 10 secs earlier"""
+    """rounds and returns 5 secs earlier"""
     sec = int(float(sec))
-    if sec - 10 < 0:
+    if sec - 5 < 0:
         sec = 0
-    else: sec = sec -10
+    else: sec = sec - 5
     return sec
 
 def locate_keywords(word_list, keywords):
@@ -32,6 +33,7 @@ def locate_keywords(word_list, keywords):
         if i > 5000: break
         if word['name'].lower() in keywords:
             times.append(round_seconds(word['time']))
+            print word['name'], word['time']
     return times
 
 def call_speechmatic_api(audio_file_path, api_token):
@@ -41,10 +43,7 @@ def call_speechmatic_api(audio_file_path, api_token):
     os.system(c)
     return "example.json"
 
-def run_word_loc(audio_file_path, api_token, keywords):
+def run_word_loc(url, api_token, keywords):
+    audio_file_path = convert_yt_to_mp3(url)
     file_path = call_speechmatic_api(audio_file_path, api_token)
     return locate_keywords(get_words(file_path), keywords)
-    
-
-
-
