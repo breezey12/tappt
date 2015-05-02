@@ -1,7 +1,8 @@
 
 import json, os
+import download_yt
 
-audio_file_path = 'audio_files/video_30_seconds_1.mp4'
+audio_file_path = 'media_files/video_30_seconds_1.mp3'
 keywords = ["accountability", "accountable"]
 api_token = "Y2E4OGM3NzItOGMwZi00OGQyLTk3MDctY2FmYWE3ZmYxZmNk"
 
@@ -35,8 +36,8 @@ def locate_keywords(word_list, keywords):
 
 def call_speechmatic_api(audio_file_path, api_token):
     """creates json word_list and returns its path""" 
-    #speechmatics.py -f example.mp3 -l en-US -i 1049 -t Y2E4OGM3NzItOGMwZi00OGQyLTk3MDctY2FmYWE3ZmYxZmNk -o example.json
-    c = "python speechmatics.py -f" + audio_file_path + " en-US -i 1049 -t" + api_token + "-o example.json"
+    #syntax: speechmatics.py -f example.mp3 -l en-US -i 1049 -t Y2E4OGM3NzItOGMwZi00OGQyLTk3MDctY2FmYWE3ZmYxZmNk -o example.json
+    c = "python speechmatics.py -f " + audio_file_path + " -l en-US -i 1049 -t " + api_token + " -o example.json"
     os.system(c)
     return "example.json"
 
