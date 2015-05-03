@@ -5,11 +5,15 @@
             <div class="call-to-action">
                 <h2>Your Results</h2>
                 <h3>Query: {{keyword}}</h3>
-                {% for url in youtube_urls %}
-                <div>
-                 <iframe width="700" height="393" src="{{url}}" frameborder="0" allowfullscreen></iframe>
-                </div>
-                {% endfor %}
+                {% if empty_results %}
+                <h3>Sorry, your query did not yield any results.</h3>
+                {% else %}
+                    {% for url in youtube_urls %}
+                        <div>
+                            <iframe width="700" height="393" src="{{url}}" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    {% endfor %}
+                {% endif %}
             </div>
         </div>
     </aside>
