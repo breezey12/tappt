@@ -20,10 +20,10 @@ def homepage():
         youtube_url = request.form['youtube_url']
         keyword = request.form['keyword']
         if 'example.json' in os.listdir('.'):
-            times = locate_keywords(get_words('speech/example.json'), [keyword])
+            times = locate_keywords(get_words('example.json'), [keyword])
         else:
             times = run_word_loc(youtube_url, app.config['SPEECHMATICS_API_KEY'], [keyword]) 
-        stream_urls = [youtube_url + "&t=" + str(time_location) + "s" for time_location in times]
+        stream_urls = [youtube_url + "&t=" + str(time_location + 5) + "s" for time_location in times]
         no_results = "Sorry, there aren't any results for "
         if len(times) == 0:
             return render_template('stream.html', no_results=no_results, keyword=keyword)
