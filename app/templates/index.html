@@ -73,15 +73,12 @@
             <div class="header-content-inner">
                 <h1>Get to what you care about</h1>
                 <hr>
-                <p>Enter Url of City Hall Meeting</p>
                 <form method="post" action="">
-                <div>
-                    <p>Stream URL:</p><input style="color: black" type="text" name="youtube_url" value="{{ request.form.youtube_url }}">
-                </div>
-                <div>
-                    <p>Keyword:</p><input style="color: black" type="text" name="keyword" value="{{ request.form.keyword }}">
-                </div>
-            <input class="btn btn-primary btn-xl page-scroll" type="submit" value="Submit">
+                    <h3>Stream URL:</h3><input style="color: navy" type="text" name="youtube_url" value="{{ request.form.youtube_url }}">
+                    <h3>Keyword:</h3><input style="color: navy" type="text" name="keyword" value="{{ request.form.keyword }}">
+                    <div>
+                        <input class="btn btn-primary btn-xl page-scroll" type="submit" value="Submit">
+                    </div>
     </form>
             </div>
         </div>
