@@ -4,13 +4,14 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Your Results</h2>
-                <h3>Query: {{keyword}}</h3>
+                <h3>Query: {{ keyword }}</h3>
                 {% if empty_results %}
                 <h3>Sorry, your query did not yield any results.</h3>
                 {% else %}
-                    {% for url in youtube_urls %}
+                    {% for time_url in youtube_urls %}
                         <div>
-                            <iframe width="700" height="393" src="{{url}}" frameborder="0" allowfullscreen></iframe>
+                            <p>Found at {{  time_url[0] }} seconds: </p>
+                            <iframe width="700" height="393" src="{{ time_url[1] }}" frameborder="0" allowfullscreen></iframe>
                         </div>
                     {% endfor %}
                 {% endif %}
