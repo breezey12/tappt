@@ -2,9 +2,15 @@
 {% block placeholder %}
     <h2>Civic Stream Tagger 'o Matix</h2>
     <h3>Your keyword: {{keyword}}</h3>
-    {% for link in stream_urls %}
-    <div>
-    <a href="{{link}}">Here's a link to stuff</a>
-    </div>
-    {% endfor %} 
+    {% if stream_urls %}
+        {% for link in stream_urls %}
+        <div>
+            <a href="{{link}}">Here's a link to stuff</a>
+        </div>
+        {% endfor %} 
+    {% else %}
+        <div>
+            {{ no_results }}{{ keyword }}
+        </div>
+    {% endif %}
 {% endblock %}
