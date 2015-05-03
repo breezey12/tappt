@@ -6,7 +6,7 @@ import time
 def convert_yt_to_mp3(url):
     url = scrub_the_url(url)
     unique_file_id = url[-11:]
-    full_path = "speech/media_files/" + unique_file_id + ".mp4"
+    full_path = "speech/mediafiles/" + unique_file_id + ".mp4"
     youtube_dl_command = "youtube-dl -o " + full_path + " " + url
     os.system(youtube_dl_command)
     convert_mp4_to_mp3(full_path)
