@@ -3,9 +3,13 @@
     <aside class="bg-dark" id="youtube">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2>YouTube Video?</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">YouTube Links</a>
-                <iframe width="700" height="393" src="https://www.youtube.com/embed/WhvrLOSb5I4" frameborder="0" allowfullscreen></iframe> 
+                <h2>Your Results</h2>
+                <h3>Query: {{keyword}}</h3>
+                {% for url in youtube_urls %}
+                <div>
+                 <iframe width="700" height="393" src="{{url}}" frameborder="0" allowfullscreen></iframe>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </aside>

@@ -78,8 +78,12 @@
                 <hr>
                 <p>Enter Url of City Hall Meeting</p>
                 <form method="post" action="">
+                <div>
                     <p>Stream URL:</p><input style="color: black" type="text" name="youtube_url" value="{{ request.form.youtube_url }}">
+                </div>
+                <div>
                     <p>Keyword:</p><input style="color: black" type="text" name="keyword" value="{{ request.form.keyword }}">
+                </div>
                  {% if error %}
                     <span>{{ error }}</span>
                 {% endif %}
@@ -91,6 +95,7 @@
 
 {% block youtube %}
 {% endblock %}
+
 	    <section id="services">
         <div class="container">
             <div class="row">
