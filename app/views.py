@@ -14,7 +14,7 @@ app.config.from_object('config')
 @app.route('/', methods=['GET', 'POST'])
 def homepage():
     if request.method == 'GET':
-        return render_template('home.html')
+        return render_template('index.html')
     if request.method == 'POST':
         youtube_url = request.form['youtube_url']
         keyword = request.form['keyword']
@@ -22,6 +22,6 @@ def homepage():
         #times = locate_keywords(get_words('speech/example.json'), [keyword])
         times = run_word_loc(youtube_url, app.config['SPEECHMATICS_API_KEY'], [keyword]) 
         stream_urls = [youtube_url + "&t=" + str(time_location+5) + "s" for time_location in times]
-        return render_template('stream.html', 
+        return render_template('youtube_embed.html', 
             stream_urls=stream_urls,
             keyword=keyword)
