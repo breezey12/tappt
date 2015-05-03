@@ -5,7 +5,7 @@ from download_yt import convert_yt_to_mp3
 
 def get_words(file_path):
     """returns list of words with attributes (time, confidence)"""
-    with open(file_path, 'rw') as raw_json:    
+    with open(file_path) as raw_json:    
         word_dict = json.load(raw_json)
     word_list = word_dict['words']
 
@@ -29,7 +29,6 @@ def locate_keywords(word_list, keywords):
         if i > 5000: break
         if word['name'].lower() in keywords:
             times.append(round_seconds(word['time']))
-            print word['name'], word['time']
     return times
 
 def call_speechmatic_api(audio_file_path, api_token, unique_json_id):
@@ -43,13 +42,14 @@ def run_word_loc(url, api_token, keywords):
     unique_id = url[-11:].encode("utf-8")
     unique_json_id = "speech/" + unique_id + ".json"
     if unique_id + ".json" not in os.listdir('speech/'):
+        print "This is working"
         audio_file_path = convert_yt_to_mp3(url)
         call_speechmatic_api(audio_file_path, api_token, unique_json_id)
-        clear_out_media_files()
+        #clear_out_media_files()
     return locate_keywords(get_words(unique_json_id), keywords)
 
 def clear_out_media_files():
-     for file_name in os.listdir('speech/media_files/'):
+     for file_name in os.listdir('speech/mediafiles/'):
          if file_name[-4:] == ".mp4" or file_name[-4:] == '.mp3':
-             full_path = 'speech/media_files/'
+             full_path = 'speech/mediafiles/'
              os.remove(os.path.join(full_path, file_name))
