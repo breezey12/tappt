@@ -498,14 +498,33 @@ body {
     color:navy;
 }
 
+input:focus{
+    outline: 0;
+}
+
 input.form {
     height: 55px;
-    width: 240px;
+    width: 470px;
     border-radius: 8px;
     line-height: 55px;
-    font-size: 18px;
+    font-size: 17px;
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
     clear: both;
+    text-align: center;
+}
+
+input.form-keyword {
+    height: 55px;
+    width: 270px;
+    border-radius: 8px;
+    color: black;
+    line-height: 55px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
 }
