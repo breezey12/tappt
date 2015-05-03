@@ -42,10 +42,9 @@ def run_word_loc(url, api_token, keywords):
     unique_id = url[-11:].encode("utf-8")
     unique_json_id = "speech/" + unique_id + ".json"
     if unique_id + ".json" not in os.listdir('speech/'):
-        print "This is working"
         audio_file_path = convert_yt_to_mp3(url)
         call_speechmatic_api(audio_file_path, api_token, unique_json_id)
-        #clear_out_media_files()
+        clear_out_media_files()
     return locate_keywords(get_words(unique_json_id), keywords)
 
 def clear_out_media_files():
