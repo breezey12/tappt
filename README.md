@@ -15,7 +15,7 @@ We also plan to do something with the library of transcripts that will be built 
 * pip
 * everything in requirements.txt
 * Python (2.7.9)
-* an account + API key from [Speechmatics](https://speechmatics.com/register).
+<!--* an account + API key from [Speechmatics](https://speechmatics.com/register).-->
 
 ### Installation
 
@@ -28,6 +28,10 @@ We also plan to do something with the library of transcripts that will be built 
 ### Instant Gratification
 
 Since there's already a .json transcript provided, you can check out Tappt's functionality without a Speechmatics API key or waiting for an API call to that service, by using `https://www.youtube.com/watch?v=8MNCQTgB7o0` as your URL.  Some keywords that show up that video are "writing", "writers", "usually", and "talking".
+
+### Usage
+
+When you search for a URL that hasn't already been transcribed, it will take about 7x the running length (as of 5/4/2015) to transcribe/index it, then search it.  This means that if the YouTube is one minute long, it will take seven minutes before you get a result.
 
 ### Feedback and Contributions
 

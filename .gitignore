@@ -6,4 +6,5 @@ venv/
 *.swp
 *.swo
 *.swn
+*_*
 *.part
