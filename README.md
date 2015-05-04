@@ -34,6 +34,9 @@ Since there's already a .json transcript provided, you can check out Tappt's fun
 
 When you search for a URL that hasn't already been transcribed, it will take about 7x the running length (as of 5/4/2015) to transcribe/index it, then search it.  This means that if the YouTube is one minute long, it will take seven minutes before you get a result.
 
+MASSIVE CAVEAT:  If the speech in the video has music under it, is mumbled, has a strong accent, or even a moderate amount of reverb/echo, it will take much longer than 7x, possibly longer than 30x.
+
+
 ### Feedback and Contributions
 
 Please create Github issues if you have any feedback or feature requests!  Also, this is a hyper-maintained project, so please fork and pull request at will; we will respond.  Lotsa issues over there →→→ :-)
