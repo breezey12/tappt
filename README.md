@@ -28,7 +28,7 @@ We also plan to do something with the library of transcripts that will be built 
 
 ### Instant Gratification
 
-Since there's already a .json transcript provided, you can check out Tappt's functionality without a Speechmatics API key or waiting for an API call to that service, by using `https://www.youtube.com/watch?v=8MNCQTgB7o0` as your URL.  Some keywords that show up that video are "writing", "writers", "usually", and "talking".
+Since there's already a .json transcript provided, you can check out Tappt's functionality without a Speechmatics API key or waiting for an API call to that service, by using `https://www.youtube.com/watch?v=8MNCQTgB7o0` as your URL.  Some keywords that show up that video are "writing", "writers", "usually", and "talking".  For a more impressive (longer) example, try `https://www.youtube.com/watch?v=sJm0P8xpDzA` and search for "heartfelt."
 
 ### Usage
 
