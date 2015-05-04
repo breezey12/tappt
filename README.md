@@ -39,4 +39,4 @@ MASSIVE CAVEAT:  If the speech in the video has music under it, is mumbled, has 
 
 ### Feedback and Contributions
 
-Please create Github issues if you have any feedback or feature requests!  Also, this is a hyper-maintained project, so please fork and pull request at will; we will respond.  Lotsa issues over there →→→ :-)
+Please create Github issues if you have any feedback or feature requests!  Also, this is a hyper-maintained project, so please fork and pull request at will; we will respond.  Lotsa issues [here](https://github.com/next-vermont-developer/gighacks-2015/issues). :-)
