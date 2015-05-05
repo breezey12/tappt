@@ -1,0 +1,2115 @@
+{
+    "job": {
+        "lang": "en-US", 
+        "user_id": 1049, 
+        "name": "k3PXANu7mUc.mp3", 
+        "created_at": "Sun May  3 22:26:45 2015", 
+        "duration": 103, 
+        "id": 29257
+    }, 
+    "speakers": [
+        {
+            "duration": "15.040", 
+            "confidence": null, 
+            "name": "M1", 
+            "time": "0.228"
+        }, 
+        {
+            "duration": "87.219", 
+            "confidence": null, 
+            "name": "F1", 
+            "time": "15.268"
+        }, 
+        {
+            "duration": "1.428", 
+            "confidence": null, 
+            "name": "M1", 
+            "time": "102.487"
+        }
+    ], 
+    "words": [
+        {
+            "duration": "0.300", 
+            "confidence": "0.872", 
+            "name": "John", 
+            "time": "0.228"
+        }, 
+        {
+            "duration": "0.200", 
+            "confidence": "0.930", 
+            "name": "thanks", 
+            "time": "0.618"
+        }, 
+        {
+            "duration": "0.060", 
+            "confidence": "0.790", 
+            "name": "for", 
+            "time": "0.818"
+        }, 
+        {
+            "duration": "0.300", 
+            "confidence": "0.810", 
+            "name": "that", 
+            "time": "0.877"
+        }, 
+        {
+            "duration": "0.200", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "1.177"
+        }, 
+        {
+            "duration": "0.510", 
+            "confidence": "0.995", 
+            "name": "Congressman", 
+            "time": "1.377"
+        }, 
+        {
+            "duration": "0.390", 
+            "confidence": "0.995", 
+            "name": "Paul", 
+            "time": "1.887"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "in", 
+            "time": "2.277"
+        }, 
+        {
+            "duration": "0.220", 
+            "confidence": "0.995", 
+            "name": "two", 
+            "time": "2.447"
+        }, 
+        {
+            "duration": "0.370", 
+            "confidence": "0.995", 
+            "name": "thousand", 
+            "time": "2.667"
+        }, 
+        {
+            "duration": "0.090", 
+            "confidence": "0.995", 
+            "name": "and", 
+            "time": "3.038"
+        }, 
+        {
+            "duration": "0.470", 
+            "confidence": "0.995", 
+            "name": "seven", 
+            "time": "3.127"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "in", 
+            "time": "3.598"
+        }, 
+        {
+            "duration": "0.090", 
+            "confidence": "0.995", 
+            "name": "an", 
+            "time": "3.768"
+        }, 
+        {
+            "duration": "0.480", 
+            "confidence": "0.995", 
+            "name": "interview", 
+            "time": "3.857"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "you", 
+            "time": "4.338"
+        }, 
+        {
+            "duration": "0.120", 
+            "confidence": "0.995", 
+            "name": "were", 
+            "time": "4.497"
+        }, 
+        {
+            "duration": "0.480", 
+            "confidence": "0.995", 
+            "name": "asked", 
+            "time": "4.617"
+        }, 
+        {
+            "duration": "0.340", 
+            "confidence": "0.995", 
+            "name": "Should", 
+            "time": "5.128"
+        }, 
+        {
+            "duration": "0.450", 
+            "confidence": "0.995", 
+            "name": "gays", 
+            "time": "5.468"
+        }, 
+        {
+            "duration": "0.120", 
+            "confidence": "0.995", 
+            "name": "be", 
+            "time": "5.918"
+        }, 
+        {
+            "duration": "0.380", 
+            "confidence": "0.995", 
+            "name": "allowed", 
+            "time": "6.037"
+        }, 
+        {
+            "duration": "0.130", 
+            "confidence": "0.995", 
+            "name": "to", 
+            "time": "6.418"
+        }, 
+        {
+            "duration": "0.390", 
+            "confidence": "0.995", 
+            "name": "marry", 
+            "time": "6.548"
+        }, 
+        {
+            "duration": "0.030", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "6.938"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "You", 
+            "time": "6.968"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.995", 
+            "name": "said", 
+            "time": "7.128"
+        }, 
+        {
+            "duration": "0.550", 
+            "confidence": "0.995", 
+            "name": "quote", 
+            "time": "7.457"
+        }, 
+        {
+            "duration": "0.440", 
+            "confidence": "0.989", 
+            "name": "sure", 
+            "time": "8.287"
+        }, 
+        {
+            "duration": "0.130", 
+            "confidence": "0.995", 
+            "name": "they", 
+            "time": "8.727"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "can", 
+            "time": "8.857"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.995", 
+            "name": "do", 
+            "time": "9.027"
+        }, 
+        {
+            "duration": "0.490", 
+            "confidence": "0.995", 
+            "name": "whatever", 
+            "time": "9.168"
+        }, 
+        {
+            "duration": "0.150", 
+            "confidence": "0.995", 
+            "name": "they", 
+            "time": "9.658"
+        }, 
+        {
+            "duration": "0.410", 
+            "confidence": "0.995", 
+            "name": "want", 
+            "time": "9.807"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.995", 
+            "name": "and", 
+            "time": "10.217"
+        }, 
+        {
+            "duration": "0.370", 
+            "confidence": "0.995", 
+            "name": "call", 
+            "time": "10.357"
+        }, 
+        {
+            "duration": "0.120", 
+            "confidence": "0.995", 
+            "name": "it", 
+            "time": "10.727"
+        }, 
+        {
+            "duration": "0.460", 
+            "confidence": "0.995", 
+            "name": "whatever", 
+            "time": "10.848"
+        }, 
+        {
+            "duration": "0.150", 
+            "confidence": "0.995", 
+            "name": "they", 
+            "time": "11.307"
+        }, 
+        {
+            "duration": "0.340", 
+            "confidence": "0.995", 
+            "name": "want", 
+            "time": "11.457"
+        }, 
+        {
+            "duration": "0.610", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "11.797"
+        }, 
+        {
+            "duration": "0.120", 
+            "confidence": "0.995", 
+            "name": "Are", 
+            "time": "12.408"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "you", 
+            "time": "12.527"
+        }, 
+        {
+            "duration": "0.690", 
+            "confidence": "0.995", 
+            "name": "advocating", 
+            "time": "12.688"
+        }, 
+        {
+            "duration": "0.600", 
+            "confidence": "0.995", 
+            "name": "legalizing", 
+            "time": "13.377"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "gay", 
+            "time": "13.977"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.995", 
+            "name": "marriage", 
+            "time": "14.148"
+        }, 
+        {
+            "duration": "0.180", 
+            "confidence": "0.995", 
+            "name": "in", 
+            "time": "14.477"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "this", 
+            "time": "14.658"
+        }, 
+        {
+            "duration": "0.420", 
+            "confidence": "0.995", 
+            "name": "country", 
+            "time": "14.818"
+        }, 
+        {
+            "duration": "0.030", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "15.238"
+        }, 
+        {
+            "duration": "0.410", 
+            "confidence": "0.995", 
+            "name": "Well", 
+            "time": "15.268"
+        }, 
+        {
+            "duration": "0.230", 
+            "confidence": "0.977", 
+            "name": "like", 
+            "time": "16.117"
+        }, 
+        {
+            "duration": "0.100", 
+            "confidence": "0.977", 
+            "name": "I", 
+            "time": "16.348"
+        }, 
+        {
+            "duration": "0.240", 
+            "confidence": "0.977", 
+            "name": "said", 
+            "time": "16.448"
+        }, 
+        {
+            "duration": "0.100", 
+            "confidence": "0.983", 
+            "name": "I", 
+            "time": "16.688"
+        }, 
+        {
+            "duration": "0.360", 
+            "confidence": "0.800", 
+            "name": "spent", 
+            "time": "16.788"
+        }, 
+        {
+            "duration": "0.060", 
+            "confidence": "0.800", 
+            "name": "a", 
+            "time": "17.148"
+        }, 
+        {
+            "duration": "0.200", 
+            "confidence": "0.995", 
+            "name": "whole", 
+            "time": "17.207"
+        }, 
+        {
+            "duration": "0.380", 
+            "confidence": "0.995", 
+            "name": "chapter", 
+            "time": "17.407"
+        }, 
+        {
+            "duration": "0.080", 
+            "confidence": "0.995", 
+            "name": "in", 
+            "time": "17.788"
+        }, 
+        {
+            "duration": "0.040", 
+            "confidence": "0.294", 
+            "name": "a", 
+            "time": "17.867"
+        }, 
+        {
+            "duration": "0.180", 
+            "confidence": "0.521", 
+            "name": "new", 
+            "time": "17.907"
+        }, 
+        {
+            "duration": "0.320", 
+            "confidence": "0.995", 
+            "name": "book", 
+            "time": "18.087"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.956", 
+            "name": "I've", 
+            "time": "18.407"
+        }, 
+        {
+            "duration": "0.250", 
+            "confidence": "0.995", 
+            "name": "written", 
+            "time": "18.567"
+        }, 
+        {
+            "duration": "0.260", 
+            "confidence": "0.995", 
+            "name": "on", 
+            "time": "18.817"
+        }, 
+        {
+            "duration": "0.740", 
+            "confidence": "0.995", 
+            "name": "marriage", 
+            "time": "19.078"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "and", 
+            "time": "20.017"
+        }, 
+        {
+            "duration": "0.060", 
+            "confidence": "0.995", 
+            "name": "I", 
+            "time": "20.177"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "think", 
+            "time": "20.238"
+        }, 
+        {
+            "duration": "0.110", 
+            "confidence": "0.995", 
+            "name": "it's", 
+            "time": "20.398"
+        }, 
+        {
+            "duration": "0.260", 
+            "confidence": "0.995", 
+            "name": "very", 
+            "time": "20.508"
+        }, 
+        {
+            "duration": "0.580", 
+            "confidence": "0.995", 
+            "name": "important", 
+            "time": "20.767"
+        }, 
+        {
+            "duration": "0.080", 
+            "confidence": "0.250", 
+            "name": "to", 
+            "time": "21.348"
+        }, 
+        {
+            "duration": "0.280", 
+            "confidence": "0.843", 
+            "name": "seeing", 
+            "time": "21.427"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.995", 
+            "name": "that", 
+            "time": "21.707"
+        }, 
+        {
+            "duration": "0.130", 
+            "confidence": "0.995", 
+            "name": "I've", 
+            "time": "21.848"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "been", 
+            "time": "21.977"
+        }, 
+        {
+            "duration": "0.360", 
+            "confidence": "0.995", 
+            "name": "married", 
+            "time": "22.137"
+        }, 
+        {
+            "duration": "0.260", 
+            "confidence": "0.995", 
+            "name": "for", 
+            "time": "22.497"
+        }, 
+        {
+            "duration": "0.340", 
+            "confidence": "0.995", 
+            "name": "fifty", 
+            "time": "22.758"
+        }, 
+        {
+            "duration": "0.410", 
+            "confidence": "0.995", 
+            "name": "three", 
+            "time": "23.098"
+        }, 
+        {
+            "duration": "0.300", 
+            "confidence": "0.995", 
+            "name": "fifty", 
+            "time": "23.508"
+        }, 
+        {
+            "duration": "0.250", 
+            "confidence": "0.995", 
+            "name": "four", 
+            "time": "23.808"
+        }, 
+        {
+            "duration": "0.410", 
+            "confidence": "0.995", 
+            "name": "years", 
+            "time": "24.058"
+        }, 
+        {
+            "duration": "0.370", 
+            "confidence": "0.995", 
+            "name": "now", 
+            "time": "24.468"
+        }, 
+        {
+            "duration": "0.470", 
+            "confidence": "0.995", 
+            "name": "but", 
+            "time": "25.058"
+        }, 
+        {
+            "duration": "0.150", 
+            "confidence": "0.995", 
+            "name": "I", 
+            "time": "25.558"
+        }, 
+        {
+            "duration": "0.230", 
+            "confidence": "0.995", 
+            "name": "think", 
+            "time": "25.707"
+        }, 
+        {
+            "duration": "0.090", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "25.938"
+        }, 
+        {
+            "duration": "0.320", 
+            "confidence": "0.995", 
+            "name": "government", 
+            "time": "26.027"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.995", 
+            "name": "should", 
+            "time": "26.348"
+        }, 
+        {
+            "duration": "0.290", 
+            "confidence": "0.995", 
+            "name": "just", 
+            "time": "26.488"
+        }, 
+        {
+            "duration": "0.190", 
+            "confidence": "0.995", 
+            "name": "be", 
+            "time": "26.777"
+        }, 
+        {
+            "duration": "0.260", 
+            "confidence": "0.995", 
+            "name": "out", 
+            "time": "27.008"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.995", 
+            "name": "of", 
+            "time": "27.267"
+        }, 
+        {
+            "duration": "0.190", 
+            "confidence": "0.995", 
+            "name": "it", 
+            "time": "27.407"
+        }, 
+        {
+            "duration": "0.180", 
+            "confidence": "0.995", 
+            "name": "I", 
+            "time": "27.747"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "think", 
+            "time": "27.927"
+        }, 
+        {
+            "duration": "0.070", 
+            "confidence": "0.995", 
+            "name": "it", 
+            "time": "28.098"
+        }, 
+        {
+            "duration": "0.150", 
+            "confidence": "0.995", 
+            "name": "should", 
+            "time": "28.168"
+        }, 
+        {
+            "duration": "0.080", 
+            "confidence": "0.995", 
+            "name": "be", 
+            "time": "28.317"
+        }, 
+        {
+            "duration": "0.250", 
+            "confidence": "0.995", 
+            "name": "done", 
+            "time": "28.398"
+        }, 
+        {
+            "duration": "0.150", 
+            "confidence": "0.800", 
+            "name": "by", 
+            "time": "28.648"
+        }, 
+        {
+            "duration": "0.110", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "28.797"
+        }, 
+        {
+            "duration": "0.370", 
+            "confidence": "0.995", 
+            "name": "church", 
+            "time": "28.907"
+        }, 
+        {
+            "duration": "0.060", 
+            "confidence": "0.669", 
+            "name": "or", 
+            "time": "29.277"
+        }, 
+        {
+            "duration": "0.450", 
+            "confidence": "0.995", 
+            "name": "private", 
+            "time": "29.337"
+        }, 
+        {
+            "duration": "0.620", 
+            "confidence": "0.403", 
+            "name": "contract", 
+            "time": "29.788"
+        }, 
+        {
+            "duration": "0.230", 
+            "confidence": "0.995", 
+            "name": "and", 
+            "time": "30.497"
+        }, 
+        {
+            "duration": "0.100", 
+            "confidence": "0.995", 
+            "name": "we", 
+            "time": "30.727"
+        }, 
+        {
+            "duration": "0.290", 
+            "confidence": "0.438", 
+            "name": "should", 
+            "time": "30.828"
+        }, 
+        {
+            "duration": "0.440", 
+            "confidence": "0.479", 
+            "name": "have", 
+            "time": "31.117"
+        }, 
+        {
+            "duration": "0.220", 
+            "confidence": "0.995", 
+            "name": "this", 
+            "time": "31.558"
+        }, 
+        {
+            "duration": "0.420", 
+            "confidence": "0.995", 
+            "name": "argument", 
+            "time": "31.777"
+        }, 
+        {
+            "duration": "0.250", 
+            "confidence": "0.679", 
+            "name": "who", 
+            "time": "32.318"
+        }, 
+        {
+            "duration": "0.120", 
+            "confidence": "0.679", 
+            "name": "is", 
+            "time": "32.568"
+        }, 
+        {
+            "duration": "0.390", 
+            "confidence": "0.995", 
+            "name": "married", 
+            "time": "32.688"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.995", 
+            "name": "and", 
+            "time": "33.078"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "who", 
+            "time": "33.218"
+        }, 
+        {
+            "duration": "0.280", 
+            "confidence": "0.978", 
+            "name": "isn't", 
+            "time": "33.388"
+        }, 
+        {
+            "duration": "0.510", 
+            "confidence": "0.982", 
+            "name": "married", 
+            "time": "33.667"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "34.178"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "I", 
+            "time": "34.318"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.990", 
+            "name": "have", 
+            "time": "34.487"
+        }, 
+        {
+            "duration": "0.230", 
+            "confidence": "0.994", 
+            "name": "my", 
+            "time": "34.657"
+        }, 
+        {
+            "duration": "0.690", 
+            "confidence": "0.995", 
+            "name": "standards", 
+            "time": "34.888"
+        }, 
+        {
+            "duration": "0.150", 
+            "confidence": "0.995", 
+            "name": "but", 
+            "time": "35.938"
+        }, 
+        {
+            "duration": "0.240", 
+            "confidence": "0.995", 
+            "name": "I", 
+            "time": "36.087"
+        }, 
+        {
+            "duration": "0.440", 
+            "confidence": "0.995", 
+            "name": "shouldn't", 
+            "time": "36.328"
+        }, 
+        {
+            "duration": "0.280", 
+            "confidence": "0.995", 
+            "name": "have", 
+            "time": "36.767"
+        }, 
+        {
+            "duration": "0.120", 
+            "confidence": "0.995", 
+            "name": "to", 
+            "time": "37.047"
+        }, 
+        {
+            "duration": "0.390", 
+            "confidence": "0.995", 
+            "name": "impose", 
+            "time": "37.167"
+        }, 
+        {
+            "duration": "0.150", 
+            "confidence": "0.995", 
+            "name": "my", 
+            "time": "37.557"
+        }, 
+        {
+            "duration": "0.430", 
+            "confidence": "0.647", 
+            "name": "spinner", 
+            "time": "37.708"
+        }, 
+        {
+            "duration": "0.110", 
+            "confidence": "0.650", 
+            "name": "to", 
+            "time": "38.138"
+        }, 
+        {
+            "duration": "0.470", 
+            "confidence": "0.995", 
+            "name": "others", 
+            "time": "38.248"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "38.718"
+        }, 
+        {
+            "duration": "0.340", 
+            "confidence": "0.995", 
+            "name": "Others", 
+            "time": "38.877"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "have", 
+            "time": "39.218"
+        }, 
+        {
+            "duration": "0.390", 
+            "confidence": "0.995", 
+            "name": "standards", 
+            "time": "39.388"
+        }, 
+        {
+            "duration": "0.090", 
+            "confidence": "0.973", 
+            "name": "and", 
+            "time": "39.778"
+        }, 
+        {
+            "duration": "0.110", 
+            "confidence": "0.771", 
+            "name": "they", 
+            "time": "39.867"
+        }, 
+        {
+            "duration": "0.110", 
+            "confidence": "0.811", 
+            "name": "have", 
+            "time": "39.977"
+        }, 
+        {
+            "duration": "0.210", 
+            "confidence": "0.949", 
+            "name": "no", 
+            "time": "40.087"
+        }, 
+        {
+            "duration": "0.280", 
+            "confidence": "0.995", 
+            "name": "right", 
+            "time": "40.297"
+        }, 
+        {
+            "duration": "0.130", 
+            "confidence": "0.995", 
+            "name": "to", 
+            "time": "40.578"
+        }, 
+        {
+            "duration": "0.490", 
+            "confidence": "0.995", 
+            "name": "impose", 
+            "time": "40.708"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.995", 
+            "name": "their", 
+            "time": "41.197"
+        }, 
+        {
+            "duration": "0.440", 
+            "confidence": "0.995", 
+            "name": "marriage", 
+            "time": "41.528"
+        }, 
+        {
+            "duration": "0.450", 
+            "confidence": "0.278", 
+            "name": "sinners", 
+            "time": "41.968"
+        }, 
+        {
+            "duration": "0.540", 
+            "confidence": "0.995", 
+            "name": "on", 
+            "time": "42.447"
+        }, 
+        {
+            "duration": "0.490", 
+            "confidence": "0.995", 
+            "name": "me", 
+            "time": "42.987"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "and", 
+            "time": "43.568"
+        }, 
+        {
+            "duration": "0.220", 
+            "confidence": "0.995", 
+            "name": "I", 
+            "time": "43.758"
+        }, 
+        {
+            "duration": "0.270", 
+            "confidence": "0.995", 
+            "name": "just", 
+            "time": "43.977"
+        }, 
+        {
+            "duration": "0.360", 
+            "confidence": "0.995", 
+            "name": "don't", 
+            "time": "44.248"
+        }, 
+        {
+            "duration": "0.390", 
+            "confidence": "0.995", 
+            "name": "like", 
+            "time": "44.608"
+        }, 
+        {
+            "duration": "0.210", 
+            "confidence": "0.995", 
+            "name": "it", 
+            "time": "44.998"
+        }, 
+        {
+            "duration": "0.660", 
+            "confidence": "0.995", 
+            "name": "but", 
+            "time": "45.398"
+        }, 
+        {
+            "duration": "0.220", 
+            "confidence": "0.995", 
+            "name": "if", 
+            "time": "46.087"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.995", 
+            "name": "we", 
+            "time": "46.307"
+        }, 
+        {
+            "duration": "0.370", 
+            "confidence": "0.995", 
+            "name": "want", 
+            "time": "46.447"
+        }, 
+        {
+            "duration": "0.410", 
+            "confidence": "0.995", 
+            "name": "to", 
+            "time": "46.818"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.995", 
+            "name": "have", 
+            "time": "47.258"
+        }, 
+        {
+            "duration": "0.700", 
+            "confidence": "0.995", 
+            "name": "something", 
+            "time": "47.587"
+        }, 
+        {
+            "duration": "0.090", 
+            "confidence": "0.995", 
+            "name": "to", 
+            "time": "48.288"
+        }, 
+        {
+            "duration": "0.210", 
+            "confidence": "0.995", 
+            "name": "say", 
+            "time": "48.377"
+        }, 
+        {
+            "duration": "0.260", 
+            "confidence": "0.995", 
+            "name": "about", 
+            "time": "48.587"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.955", 
+            "name": "marriage", 
+            "time": "48.847"
+        }, 
+        {
+            "duration": "0.070", 
+            "confidence": "0.353", 
+            "name": "it", 
+            "time": "49.178"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "should", 
+            "time": "49.248"
+        }, 
+        {
+            "duration": "0.090", 
+            "confidence": "0.995", 
+            "name": "be", 
+            "time": "49.407"
+        }, 
+        {
+            "duration": "0.080", 
+            "confidence": "0.995", 
+            "name": "at", 
+            "time": "49.498"
+        }, 
+        {
+            "duration": "0.070", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "49.578"
+        }, 
+        {
+            "duration": "0.360", 
+            "confidence": "0.995", 
+            "name": "state", 
+            "time": "49.648"
+        }, 
+        {
+            "duration": "0.370", 
+            "confidence": "0.995", 
+            "name": "level", 
+            "time": "50.008"
+        }, 
+        {
+            "duration": "0.290", 
+            "confidence": "0.995", 
+            "name": "and", 
+            "time": "50.477"
+        }, 
+        {
+            "duration": "0.240", 
+            "confidence": "0.995", 
+            "name": "not", 
+            "time": "50.767"
+        }, 
+        {
+            "duration": "0.110", 
+            "confidence": "0.497", 
+            "name": "at", 
+            "time": "51.008"
+        }, 
+        {
+            "duration": "0.090", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "51.117"
+        }, 
+        {
+            "duration": "0.360", 
+            "confidence": "0.995", 
+            "name": "federal", 
+            "time": "51.208"
+        }, 
+        {
+            "duration": "0.450", 
+            "confidence": "0.995", 
+            "name": "government", 
+            "time": "51.568"
+        }, 
+        {
+            "duration": "0.240", 
+            "confidence": "0.995", 
+            "name": "just", 
+            "time": "52.047"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "get", 
+            "time": "52.288"
+        }, 
+        {
+            "duration": "0.180", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "52.458"
+        }, 
+        {
+            "duration": "0.420", 
+            "confidence": "0.995", 
+            "name": "government", 
+            "time": "52.667"
+        }, 
+        {
+            "duration": "0.200", 
+            "confidence": "0.995", 
+            "name": "out", 
+            "time": "53.117"
+        }, 
+        {
+            "duration": "0.070", 
+            "confidence": "0.995", 
+            "name": "of", 
+            "time": "53.318"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.925", 
+            "name": "this", 
+            "time": "53.388"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.995", 
+            "name": "one", 
+            "time": "53.547"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.208", 
+            "name": "area", 
+            "time": "53.877"
+        }, 
+        {
+            "duration": "0.230", 
+            "confidence": "0.646", 
+            "name": "where", 
+            "time": "54.208"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.600", 
+            "name": "it's", 
+            "time": "54.438"
+        }, 
+        {
+            "duration": "0.360", 
+            "confidence": "0.995", 
+            "name": "totally", 
+            "time": "54.608"
+        }, 
+        {
+            "duration": "0.710", 
+            "confidence": "0.995", 
+            "name": "unnecessary", 
+            "time": "54.968"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "55.678"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.953", 
+            "name": "And", 
+            "time": "55.818"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.513", 
+            "name": "they've", 
+            "time": "55.958"
+        }, 
+        {
+            "duration": "0.420", 
+            "confidence": "0.666", 
+            "name": "caused", 
+            "time": "56.127"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.995", 
+            "name": "more", 
+            "time": "56.547"
+        }, 
+        {
+            "duration": "0.460", 
+            "confidence": "0.995", 
+            "name": "trouble", 
+            "time": "56.877"
+        }, 
+        {
+            "duration": "0.210", 
+            "confidence": "0.995", 
+            "name": "than", 
+            "time": "57.367"
+        }, 
+        {
+            "duration": "0.750", 
+            "confidence": "0.995", 
+            "name": "necessary", 
+            "time": "57.578"
+        }, 
+        {
+            "duration": "0.150", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "58.328"
+        }, 
+        {
+            "duration": "0.310", 
+            "confidence": "0.822", 
+            "name": "Given", 
+            "time": "62.468"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.823", 
+            "name": "that", 
+            "time": "62.778"
+        }, 
+        {
+            "duration": "0.340", 
+            "confidence": "0.924", 
+            "name": "answer", 
+            "time": "62.947"
+        }, 
+        {
+            "duration": "0.130", 
+            "confidence": "0.995", 
+            "name": "I", 
+            "time": "63.288"
+        }, 
+        {
+            "duration": "0.200", 
+            "confidence": "0.995", 
+            "name": "have", 
+            "time": "63.417"
+        }, 
+        {
+            "duration": "0.100", 
+            "confidence": "0.995", 
+            "name": "to", 
+            "time": "63.617"
+        }, 
+        {
+            "duration": "0.300", 
+            "confidence": "0.995", 
+            "name": "ask", 
+            "time": "63.718"
+        }, 
+        {
+            "duration": "0.120", 
+            "confidence": "0.995", 
+            "name": "you", 
+            "time": "64.017"
+        }, 
+        {
+            "duration": "0.280", 
+            "confidence": "0.995", 
+            "name": "about", 
+            "time": "64.138"
+        }, 
+        {
+            "duration": "0.100", 
+            "confidence": "0.995", 
+            "name": "your", 
+            "time": "64.418"
+        }, 
+        {
+            "duration": "0.520", 
+            "confidence": "0.995", 
+            "name": "defense", 
+            "time": "64.517"
+        }, 
+        {
+            "duration": "0.210", 
+            "confidence": "0.995", 
+            "name": "of", 
+            "time": "65.037"
+        }, 
+        {
+            "duration": "0.150", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "65.248"
+        }, 
+        {
+            "duration": "0.350", 
+            "confidence": "0.995", 
+            "name": "Defense", 
+            "time": "65.397"
+        }, 
+        {
+            "duration": "0.100", 
+            "confidence": "0.995", 
+            "name": "of", 
+            "time": "65.748"
+        }, 
+        {
+            "duration": "0.350", 
+            "confidence": "0.995", 
+            "name": "Marriage", 
+            "time": "65.847"
+        }, 
+        {
+            "duration": "0.260", 
+            "confidence": "0.995", 
+            "name": "Act", 
+            "time": "66.198"
+        }, 
+        {
+            "duration": "0.190", 
+            "confidence": "0.995", 
+            "name": "which", 
+            "time": "66.457"
+        }, 
+        {
+            "duration": "0.630", 
+            "confidence": "0.995", 
+            "name": "defines", 
+            "time": "66.647"
+        }, 
+        {
+            "duration": "0.320", 
+            "confidence": "0.995", 
+            "name": "marriage", 
+            "time": "67.278"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.995", 
+            "name": "as", 
+            "time": "67.597"
+        }, 
+        {
+            "duration": "0.340", 
+            "confidence": "0.995", 
+            "name": "between", 
+            "time": "67.737"
+        }, 
+        {
+            "duration": "0.280", 
+            "confidence": "0.995", 
+            "name": "one", 
+            "time": "68.078"
+        }, 
+        {
+            "duration": "0.300", 
+            "confidence": "0.995", 
+            "name": "man", 
+            "time": "68.358"
+        }, 
+        {
+            "duration": "0.200", 
+            "confidence": "0.995", 
+            "name": "and", 
+            "time": "68.657"
+        }, 
+        {
+            "duration": "0.250", 
+            "confidence": "0.995", 
+            "name": "one", 
+            "time": "68.858"
+        }, 
+        {
+            "duration": "0.470", 
+            "confidence": "0.995", 
+            "name": "woman", 
+            "time": "69.108"
+        }, 
+        {
+            "duration": "0.300", 
+            "confidence": "0.480", 
+            "name": "even", 
+            "time": "70.078"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "just", 
+            "time": "70.377"
+        }, 
+        {
+            "duration": "0.250", 
+            "confidence": "0.995", 
+            "name": "weeks", 
+            "time": "70.547"
+        }, 
+        {
+            "duration": "0.220", 
+            "confidence": "0.995", 
+            "name": "ago", 
+            "time": "70.797"
+        }, 
+        {
+            "duration": "0.130", 
+            "confidence": "0.995", 
+            "name": "you", 
+            "time": "71.017"
+        }, 
+        {
+            "duration": "0.600", 
+            "confidence": "0.512", 
+            "name": "criticize", 
+            "time": "71.147"
+        }, 
+        {
+            "duration": "0.180", 
+            "confidence": "0.995", 
+            "name": "this", 
+            "time": "71.748"
+        }, 
+        {
+            "duration": "0.650", 
+            "confidence": "0.995", 
+            "name": "administration", 
+            "time": "71.927"
+        }, 
+        {
+            "duration": "0.180", 
+            "confidence": "0.995", 
+            "name": "for", 
+            "time": "72.578"
+        }, 
+        {
+            "duration": "0.150", 
+            "confidence": "0.995", 
+            "name": "its", 
+            "time": "72.757"
+        }, 
+        {
+            "duration": "0.450", 
+            "confidence": "0.995", 
+            "name": "decision", 
+            "time": "72.907"
+        }, 
+        {
+            "duration": "0.130", 
+            "confidence": "0.995", 
+            "name": "to", 
+            "time": "73.358"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "no", 
+            "time": "73.487"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.995", 
+            "name": "longer", 
+            "time": "73.647"
+        }, 
+        {
+            "duration": "0.420", 
+            "confidence": "0.867", 
+            "name": "defend", 
+            "time": "73.978"
+        }, 
+        {
+            "duration": "0.080", 
+            "confidence": "0.652", 
+            "name": "it", 
+            "time": "74.397"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.995", 
+            "name": "against", 
+            "time": "74.478"
+        }, 
+        {
+            "duration": "0.240", 
+            "confidence": "0.995", 
+            "name": "legal", 
+            "time": "74.808"
+        }, 
+        {
+            "duration": "0.770", 
+            "confidence": "0.995", 
+            "name": "challenges", 
+            "time": "75.047"
+        }, 
+        {
+            "duration": "0.410", 
+            "confidence": "0.608", 
+            "name": "and", 
+            "time": "75.847"
+        }, 
+        {
+            "duration": "0.180", 
+            "confidence": "0.995", 
+            "name": "in", 
+            "time": "76.347"
+        }, 
+        {
+            "duration": "0.060", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "76.528"
+        }, 
+        {
+            "duration": "0.280", 
+            "confidence": "0.995", 
+            "name": "main", 
+            "time": "76.588"
+        }, 
+        {
+            "duration": "0.410", 
+            "confidence": "0.995", 
+            "name": "reason", 
+            "time": "76.868"
+        }, 
+        {
+            "duration": "0.310", 
+            "confidence": "0.995", 
+            "name": "there", 
+            "time": "77.278"
+        }, 
+        {
+            "duration": "0.130", 
+            "confidence": "0.995", 
+            "name": "is", 
+            "time": "77.588"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.439", 
+            "name": "this", 
+            "time": "77.718"
+        }, 
+        {
+            "duration": "0.220", 
+            "confidence": "0.922", 
+            "name": "sense", 
+            "time": "77.858"
+        }, 
+        {
+            "duration": "0.070", 
+            "confidence": "0.946", 
+            "name": "of", 
+            "time": "78.078"
+        }, 
+        {
+            "duration": "0.460", 
+            "confidence": "0.994", 
+            "name": "marriage", 
+            "time": "78.147"
+        }, 
+        {
+            "duration": "0.630", 
+            "confidence": "0.766", 
+            "name": "and", 
+            "time": "78.767"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.380", 
+            "name": "I've", 
+            "time": "79.397"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.408", 
+            "name": "been", 
+            "time": "79.567"
+        }, 
+        {
+            "duration": "0.280", 
+            "confidence": "0.368", 
+            "name": "called", 
+            "time": "79.707"
+        }, 
+        {
+            "duration": "0.100", 
+            "confidence": "0.965", 
+            "name": "as", 
+            "time": "79.987"
+        }, 
+        {
+            "duration": "0.110", 
+            "confidence": "0.995", 
+            "name": "I", 
+            "time": "80.088"
+        }, 
+        {
+            "duration": "0.450", 
+            "confidence": "0.995", 
+            "name": "voted", 
+            "time": "80.198"
+        }, 
+        {
+            "duration": "0.300", 
+            "confidence": "0.995", 
+            "name": "for", 
+            "time": "80.817"
+        }, 
+        {
+            "duration": "0.090", 
+            "confidence": "0.993", 
+            "name": "it", 
+            "time": "81.118"
+        }, 
+        {
+            "duration": "0.100", 
+            "confidence": "0.995", 
+            "name": "of", 
+            "time": "81.207"
+        }, 
+        {
+            "duration": "0.290", 
+            "confidence": "0.995", 
+            "name": "course", 
+            "time": "81.308"
+        }, 
+        {
+            "duration": "0.130", 
+            "confidence": "0.995", 
+            "name": "I", 
+            "time": "81.597"
+        }, 
+        {
+            "duration": "0.640", 
+            "confidence": "0.995", 
+            "name": "supported", 
+            "time": "81.728"
+        }, 
+        {
+            "duration": "0.110", 
+            "confidence": "0.995", 
+            "name": "it", 
+            "time": "82.368"
+        }, 
+        {
+            "duration": "0.120", 
+            "confidence": "0.995", 
+            "name": "but", 
+            "time": "82.478"
+        }, 
+        {
+            "duration": "0.040", 
+            "confidence": "0.995", 
+            "name": "I", 
+            "time": "82.597"
+        }, 
+        {
+            "duration": "0.350", 
+            "confidence": "0.995", 
+            "name": "wasn't", 
+            "time": "82.638"
+        }, 
+        {
+            "duration": "0.430", 
+            "confidence": "0.995", 
+            "name": "there", 
+            "time": "82.987"
+        }, 
+        {
+            "duration": "0.480", 
+            "confidence": "0.995", 
+            "name": "but", 
+            "time": "83.558"
+        }, 
+        {
+            "duration": "0.760", 
+            "confidence": "0.995", 
+            "name": "because", 
+            "time": "84.067"
+        }, 
+        {
+            "duration": "0.400", 
+            "confidence": "0.995", 
+            "name": "that", 
+            "time": "84.978"
+        }, 
+        {
+            "duration": "0.460", 
+            "confidence": "0.854", 
+            "name": "bill", 
+            "time": "85.377"
+        }, 
+        {
+            "duration": "0.390", 
+            "confidence": "0.995", 
+            "name": "actually", 
+            "time": "85.877"
+        }, 
+        {
+            "duration": "0.490", 
+            "confidence": "0.995", 
+            "name": "protects", 
+            "time": "86.267"
+        }, 
+        {
+            "duration": "0.080", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "86.757"
+        }, 
+        {
+            "duration": "0.450", 
+            "confidence": "0.819", 
+            "name": "state", 
+            "time": "86.838"
+        }, 
+        {
+            "duration": "0.230", 
+            "confidence": "0.534", 
+            "name": "see", 
+            "time": "87.287"
+        }, 
+        {
+            "duration": "0.110", 
+            "confidence": "0.873", 
+            "name": "I", 
+            "time": "87.517"
+        }, 
+        {
+            "duration": "0.340", 
+            "confidence": "0.995", 
+            "name": "do", 
+            "time": "87.627"
+        }, 
+        {
+            "duration": "0.780", 
+            "confidence": "0.931", 
+            "name": "recognize", 
+            "time": "87.998"
+        }, 
+        {
+            "duration": "0.290", 
+            "confidence": "0.995", 
+            "name": "that", 
+            "time": "89.047"
+        }, 
+        {
+            "duration": "0.060", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "89.338"
+        }, 
+        {
+            "duration": "0.250", 
+            "confidence": "0.995", 
+            "name": "federal", 
+            "time": "89.397"
+        }, 
+        {
+            "duration": "0.280", 
+            "confidence": "0.995", 
+            "name": "government", 
+            "time": "89.647"
+        }, 
+        {
+            "duration": "0.200", 
+            "confidence": "0.969", 
+            "name": "should", 
+            "time": "89.927"
+        }, 
+        {
+            "duration": "0.190", 
+            "confidence": "0.995", 
+            "name": "tell", 
+            "time": "90.127"
+        }, 
+        {
+            "duration": "0.060", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "90.317"
+        }, 
+        {
+            "duration": "0.440", 
+            "confidence": "0.995", 
+            "name": "states", 
+            "time": "90.377"
+        }, 
+        {
+            "duration": "0.170", 
+            "confidence": "0.995", 
+            "name": "what", 
+            "time": "90.817"
+        }, 
+        {
+            "duration": "0.120", 
+            "confidence": "0.995", 
+            "name": "to", 
+            "time": "90.987"
+        }, 
+        {
+            "duration": "0.450", 
+            "confidence": "0.995", 
+            "name": "do", 
+            "time": "91.108"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.995", 
+            "name": "in", 
+            "time": "91.737"
+        }, 
+        {
+            "duration": "0.070", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "91.877"
+        }, 
+        {
+            "duration": "0.320", 
+            "confidence": "0.995", 
+            "name": "Defense", 
+            "time": "91.948"
+        }, 
+        {
+            "duration": "0.080", 
+            "confidence": "0.995", 
+            "name": "of", 
+            "time": "92.267"
+        }, 
+        {
+            "duration": "0.410", 
+            "confidence": "0.995", 
+            "name": "Marriage", 
+            "time": "92.347"
+        }, 
+        {
+            "duration": "0.250", 
+            "confidence": "0.995", 
+            "name": "Act", 
+            "time": "92.757"
+        }, 
+        {
+            "duration": "0.190", 
+            "confidence": "0.995", 
+            "name": "was", 
+            "time": "93.007"
+        }, 
+        {
+            "duration": "0.310", 
+            "confidence": "0.995", 
+            "name": "really", 
+            "time": "93.198"
+        }, 
+        {
+            "duration": "0.590", 
+            "confidence": "0.995", 
+            "name": "designed", 
+            "time": "93.507"
+        }, 
+        {
+            "duration": "0.110", 
+            "confidence": "0.995", 
+            "name": "to", 
+            "time": "94.097"
+        }, 
+        {
+            "duration": "0.330", 
+            "confidence": "0.995", 
+            "name": "make", 
+            "time": "94.207"
+        }, 
+        {
+            "duration": "0.510", 
+            "confidence": "0.995", 
+            "name": "sure", 
+            "time": "94.537"
+        }, 
+        {
+            "duration": "0.320", 
+            "confidence": "0.995", 
+            "name": "that", 
+            "time": "95.188"
+        }, 
+        {
+            "duration": "0.420", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "95.507"
+        }, 
+        {
+            "duration": "0.270", 
+            "confidence": "0.995", 
+            "name": "that", 
+            "time": "96.618"
+        }, 
+        {
+            "duration": "0.250", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "96.888"
+        }, 
+        {
+            "duration": "0.620", 
+            "confidence": "0.967", 
+            "name": "states", 
+            "time": "97.168"
+        }, 
+        {
+            "duration": "0.240", 
+            "confidence": "0.849", 
+            "name": "have", 
+            "time": "97.828"
+        }, 
+        {
+            "duration": "0.080", 
+            "confidence": "0.995", 
+            "name": "the", 
+            "time": "98.067"
+        }, 
+        {
+            "duration": "0.460", 
+            "confidence": "0.995", 
+            "name": "privilege", 
+            "time": "98.147"
+        }, 
+        {
+            "duration": "0.090", 
+            "confidence": "0.995", 
+            "name": "of", 
+            "time": "98.608"
+        }, 
+        {
+            "duration": "0.320", 
+            "confidence": "0.995", 
+            "name": "dealing", 
+            "time": "98.698"
+        }, 
+        {
+            "duration": "0.190", 
+            "confidence": "0.995", 
+            "name": "with", 
+            "time": "99.017"
+        }, 
+        {
+            "duration": "0.160", 
+            "confidence": "0.995", 
+            "name": "it", 
+            "time": "99.207"
+        }, 
+        {
+            "duration": "0.140", 
+            "confidence": "0.417", 
+            "name": "and", 
+            "time": "99.407"
+        }, 
+        {
+            "duration": "0.060", 
+            "confidence": "0.972", 
+            "name": "the", 
+            "time": "99.547"
+        }, 
+        {
+            "duration": "0.200", 
+            "confidence": "0.995", 
+            "name": "federal", 
+            "time": "99.608"
+        }, 
+        {
+            "duration": "0.270", 
+            "confidence": "0.995", 
+            "name": "government", 
+            "time": "99.808"
+        }, 
+        {
+            "duration": "0.230", 
+            "confidence": "0.320", 
+            "name": "can't", 
+            "time": "100.078"
+        }, 
+        {
+            "duration": "0.380", 
+            "confidence": "0.995", 
+            "name": "impose", 
+            "time": "100.308"
+        }, 
+        {
+            "duration": "0.190", 
+            "confidence": "0.995", 
+            "name": "their", 
+            "time": "100.688"
+        }, 
+        {
+            "duration": "0.460", 
+            "confidence": "0.995", 
+            "name": "standards", 
+            "time": "100.877"
+        }, 
+        {
+            "duration": "0.240", 
+            "confidence": "0.995", 
+            "name": "on", 
+            "time": "101.338"
+        }, 
+        {
+            "duration": "0.340", 
+            "confidence": "0.995", 
+            "name": "them", 
+            "time": "101.578"
+        }, 
+        {
+            "duration": "0.570", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "101.918"
+        }, 
+        {
+            "duration": "0.180", 
+            "confidence": "0.995", 
+            "name": "Thank", 
+            "time": "102.487"
+        }, 
+        {
+            "duration": "0.070", 
+            "confidence": "0.995", 
+            "name": "you", 
+            "time": "102.668"
+        }, 
+        {
+            "duration": "0.270", 
+            "confidence": "0.975", 
+            "name": "sir", 
+            "time": "102.737"
+        }, 
+        {
+            "duration": "0.500", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "103.007"
+        }, 
+        {
+            "duration": "0.240", 
+            "confidence": "0.833", 
+            "name": "Mr", 
+            "time": "103.507"
+        }, 
+        {
+            "duration": "0.168", 
+            "confidence": "0.297", 
+            "name": "Kay", 
+            "time": "103.748"
+        }, 
+        {
+            "duration": "0.000", 
+            "confidence": null, 
+            "name": ".", 
+            "time": "103.915"
+        }
+    ], 
+    "format": "1.0"
+}
