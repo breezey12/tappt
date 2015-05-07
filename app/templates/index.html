@@ -81,6 +81,10 @@
                     <input class="form-keyword" type="text" name="keyword" placeholder="keyword" value="{{ request.form.keyword }}">
                     <div class="submit-button">
                         <input class="btn btn-primary btn-xl page-scroll" type="submit" value="Submit">
+                        <div class="loading" id="loading">
+                        <img src="../static/img/loading.svg" width="50px" height="50px">
+                        <p>loading the moment...</p>
+                        </div>
                     </div>
     </form>
             </div>
@@ -166,6 +170,16 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="../static/js/creative.js"></script>
+
+    <script>
+        $(function() {
+        $('#loading').hide();
+        });
+
+        $('#demo').click(function() {
+        $('#loading').show();
+        });
+    </script>
 
 </body>
 
