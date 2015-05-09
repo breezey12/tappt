@@ -38,6 +38,20 @@ def call_speechmatic_api(audio_file_path, api_token, unique_json_id):
     os.system(c)
     return 
 
+
+def validate_and_transform_url(url):
+    things_that_might_be_missing = ["http",
+                                    "https",
+                                    "www",
+                                    "//",
+                                    ":"]
+    if not all(thing in url for thing in things_that_might_be_missing):
+        print "something was missing from url"
+        youtube_appears_at_index = url.find("youtube")
+        return "http://www." + url[youtube_appears_at_index:]
+    return url
+
+
 def run_word_loc(url, api_token, keywords):
     unique_id = url[-11:].encode("utf-8")
     unique_json_id = "speech/" + unique_id + ".json"
