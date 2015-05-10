@@ -20,7 +20,7 @@ def homepage():
         empty_results = False
         youtube_url = make_generic_youtube_url(request.form['youtube_url'])
         keyword = request.form['keyword']
-        times = run_word_loc(youtube_url, app.config['SPEECHMATICS_API_KEY'], [keyword]) 
+        times = run_word_loc(youtube_url, app.config['SPEECHMATICS_API_KEY'], app.config['SPEECHMATICS_USER_ID'], [keyword]) 
         youtube_urls = [[time_loc, youtube_url.replace('watch?v=', 'embed/') + "?start=" + str(time_loc)] for time_loc in times]
         if not youtube_urls:
             empty_results = True 
