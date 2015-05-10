@@ -77,8 +77,8 @@
                 <p>Get notified when your issue is spoken about in a public forum in real-time, then join the conversation.</p>
                 <hr>
                 <form method="post" action="">
-                    <input class="form" type="text" name="youtube_url" placeholder="stream URL" value="{{ request.form.youtube_url }}">
-                    <input class="form-keyword" type="text" name="keyword" placeholder="keyword" value="{{ request.form.keyword }}">
+                    <input class="form" type="text" name="youtube_url" pattern="^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$" placeholder="stream URL" oninvalid="setCustomValidity('Please enter a valid YouTube URL')" oninput="try{setCustomValidity('')}catch(e){}"  required value="{{ request.form.youtube_url }}">
+                    <input class="form-keyword" type="text" name="keyword" required placeholder="keyword" value="{{ request.form.keyword }}">
                     <div class="submit-button">
                         <input class="btn btn-primary btn-xl page-scroll" type="submit" value="Submit">
                     </div>
