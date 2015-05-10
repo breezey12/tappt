@@ -39,22 +39,30 @@ def call_speechmatic_api(audio_file_path, api_token, unique_json_id):
     return 
 
 
-def validate_and_transform_url(url):
-    things_that_might_be_missing = ["http",
-                                    "https",
-                                    "www",
-                                    "//",
-                                    ":"]
-    if not all(thing in url for thing in things_that_might_be_missing):
-        print "something was missing from url"
-        youtube_appears_at_index = url.find("youtube")
-        return "http://www." + url[youtube_appears_at_index:]
-    return url
+def extract_unique_id_from_url(url):
+    """extracts 11-digit video ID from the four different prefixes it may have
+    from different YouTube URL formats"""
+    characters_that_appear_just_before_unique_id = ["v=",
+                                                    "/v/",
+                                                    "/embed/",
+                                                    "youtu.be/"]
+    for characters in characters_that_appear_just_before_unique_id:
+        if characters in url:
+            start_of_unique_id = url.find(characters) + len(characters)
+            return url[start_of_unique_id:start_of_unique_id + 11].encode("utf-8")
+        else:
+            print "did not find unique_id"
 
 
 def run_word_loc(url, api_token, keywords):
-    unique_id = url[-11:].encode("utf-8")
+    """
+    checks to see if there's already a JSON file for this YouTube video ID.
+    if there isn't, it downloads the media, sends it to Speechmatic, then 
+    calls locate_keywords() to return a list of where the keyword was found
+    """
+    unique_id = extract_unique_id_from_url(url)
     unique_json_id = "speech/" + unique_id + ".json"
+    url = "http://youtube.com/watch?v=" + unique_id
     if unique_id + ".json" not in os.listdir('speech/'):
         audio_file_path = convert_yt_to_mp3(url)
         call_speechmatic_api(audio_file_path, api_token, unique_json_id)
