@@ -54,6 +54,13 @@ def extract_unique_id_from_url(url):
             print "did not find unique_id"
 
 
+def make_generic_youtube_url(url):
+    """takes one of the four different formats of YouTube URL and returns
+    the canonical format"""
+    id = extract_unique_id_from_url(url)
+    return "http://youtube.com/watch?v=" + id
+
+
 def run_word_loc(url, api_token, keywords):
     """
     checks to see if there's already a JSON file for this YouTube video ID.
