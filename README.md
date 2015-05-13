@@ -15,6 +15,7 @@ We also plan to do something with the library of transcripts that will be built 
 * pip
 * everything in requirements.txt
 * Python (2.7.9)
+* ffmpeg
 * an account + API key from [Speechmatics](https://speechmatics.com/register).
 
 ### Installation
