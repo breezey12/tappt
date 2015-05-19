@@ -15,12 +15,12 @@ We also plan to do something with the library of transcripts that will be built 
 * pip
 * everything in requirements.txt
 * Python (2.7.9)
-* ffmpeg
+* [FFmpeg](https://www.ffmpeg.org/)
 * an account + API key from [Speechmatics](https://speechmatics.com/register).
 
 ### Installation
 
-1. clone this repo, `cd` into it.
+1. clone this repo, `cd` to it.
 1. `pip install -r requirements.txt`.
 1. `cd app`.
 1. create a file named `_local_config.py` and add a single line: `SPEECHMATICS_API_KEY =`, then your API key surrounded by quotes.
