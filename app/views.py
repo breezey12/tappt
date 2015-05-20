@@ -1,5 +1,6 @@
 # views.py
 
+#importing modules
 
 from flask import Flask, flash, redirect, render_template, request,\
     session, url_for
@@ -10,7 +11,13 @@ import os
 app = Flask(__name__)
 app.config.from_object('config')
 
-
+'''
+The function homepage() tells the HTML form template to post a youtube_url 
+and a single keyword temporarily to the server. If the youtube_url exists, 
+the function then time stamps the youtube_url at the time in the video when
+the specified keyword is spoken (if spoken at all). The function renders a new 
+html file (youtube_embed.html) if the youtube_url and keyword exist.
+'''
 
 @app.route('/', methods=['GET', 'POST'])
 def homepage():
